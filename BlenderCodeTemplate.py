@@ -9,7 +9,7 @@ def cleanScene():
     # Checks for hidden stuff and unhides them.     
     for obj in bpy.data.objects: 
         obj.hide_set(False)
-        obj.hide_select = FalseA
+        obj.hide_select = False
         obj.hide_viewport = False
         
     # Selects all the objects and then deletes.     
